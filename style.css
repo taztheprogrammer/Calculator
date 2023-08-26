@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 10vh;
+}
+
+header {
+    position: fixed;
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+#calc {
+    border: 1px solid black;
+    height: 550px;
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#display {
+    height: 100px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.btn {
+    --dim : 100px;
+    height: var(--dim);
+    width: var(--dim);
+    border: 1px solid black;
+    cursor: pointer;
+}
