@@ -48,3 +48,11 @@ h1 {
     border: 1px solid black;
     cursor: pointer;
 }
+
+.btn:hover {
+    background-color: gray;
+}
+
+.btn:active {
+    background-color: black;
+}
