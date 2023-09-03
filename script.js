@@ -1,4 +1,4 @@
-const display = document.getElementById('display');
+const current = document.getElementById('current');
 
 const btn = document.getElementsByClassName('btn');
 
@@ -7,5 +7,5 @@ for (let i = 0; i < btn.length; i++) {
 }
 
 function displayChange() {
-    display.innerHTML = this.innerHTML;
+    current.innerHTML = this.innerHTML;
 }
