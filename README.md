@@ -19,6 +19,6 @@
 </ul>
 <h2>Links</h2>
 <ul>
-  <li>Next Project <b>coming soon</b></li>
+  <li>Next Project <a href='https://github.com/taztheprogrammer/TheTypeGame'>The Type Game</a></li>
   <li>Previous Project <a href="https://github.com/taztheprogrammer/Library">Library App</a></li>
 </ul>
